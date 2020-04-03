@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <h1>Questions to make a deck
+        </h1>
+    </head>
+    <body>
+
+      <form method = "post" action = "/results">
+        <br>
+        <br>
+        <br>
+
+        <h2> Choose your decks color
+        </h2>
+        <input type="checkbox" name="color1" value="white">White <br>
+        <input type="checkbox" name="color2" value="Blue">Blue <br>
+        <input type="checkbox" name="color3" value="Black">Black <br>
+        <input type="checkbox" name="color4" value="Red">Red <br>
+        <input type="checkbox" name="color5" value="Green">Green <br>
+        <br>
+        <br>
+        <img src={{image}}>
+        <br>
+        <br>
+        <br>
+        <h3> How would you rate yourself as a magic player<h3/>
+        <h3> Rate yourself on scale of 1-10<h3/>
+        <input type="number" name="rating" min="1" max="10">
+        <br>
+        <input type = "submit" value = "submit"/>
+
+      </form>
+    </body>
+</html>
